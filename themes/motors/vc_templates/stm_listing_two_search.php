@@ -102,8 +102,7 @@ if (!empty($number_affix)) {
                     <?php echo esc_attr($first_tab_label); ?>
                 </a>
             </li>
-            <li role="presentation">
-                <a href="https://docs.google.com/presentation/d/1m6YukOTkNI7ss2NqDdCCtyHd0vrfrkFPO4Pyayrfv9k/edit#slide=id.gce4ea8cf9e_0_240"  role="tab">
+                <a href="<?php home_url().'/add-car'; ?>"  role="tab">
                     <?php echo esc_attr($second_tab_label); ?>
                 </a>
             </li>
