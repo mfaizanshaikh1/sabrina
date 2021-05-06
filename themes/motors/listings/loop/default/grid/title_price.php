@@ -35,7 +35,7 @@ if(stm_is_dealer_two()) {
             </div>
         <?php endif; ?>
     <?php endif; ?>
-    <div class="car-title" data-max-char="<?php echo get_theme_mod('grid_title_max_length', 44); ?>">
+    <div class="car-title" data-max-char="<?php echo get_theme_mod('grid_title_max_length', 30); ?>">
         <?php
         if(!stm_is_listing_three()) {
             echo esc_html(stm_generate_title_from_slugs(get_the_id()));
