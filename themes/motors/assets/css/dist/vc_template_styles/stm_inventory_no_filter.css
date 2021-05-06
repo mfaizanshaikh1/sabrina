@@ -1,0 +1,501 @@
+.stm-inventory-no-filter-wrap {
+    display: block;
+    position: relative;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting.loading {
+    opacity: 0.5;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop {
+    margin-bottom: 30px;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop.stm-listing-directory-list-loop .stm-car-medias {
+    position: absolute;
+    top: 15px;
+    left: 7px;
+    z-index: 20;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop.stm-listing-directory-list-loop .stm-car-medias > div {
+    display: inline-block;
+    margin-right: 9px;
+    padding: 2px 5px 0 6px;
+    border-radius: 2px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 11px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop.stm-listing-directory-list-loop .stm-car-medias > div i {
+    font-size: 12px;
+    margin-right: 2px;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop.stm-listing-directory-list-loop .stm-car-medias > div span {
+    position: relative;
+    top: -1px;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop.stm-listing-directory-list-loop .stm-car-medias > div:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop.stm-listing-directory-list-loop .stm-car-medias > div.stm-listing-videos-unit i {
+    position: relative;
+    top: -1px;
+    left: 1px;
+    margin-right: 3px;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop.stm-listing-directory-list-loop .stm-listing-compare {
+    position: absolute;
+    right: 7px;
+    bottom: 7px;
+    padding: 3px 5px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 14px;
+    border-radius: 2px;
+    opacity: 0;
+    z-index: 20;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop.stm-listing-directory-list-loop .stm-listing-compare:hover {
+    background: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop.stm-listing-directory-list-loop .stm-listing-compare.active {
+    background: linear-gradient(180deg, #1bc744 0%, #169f36 100%);
+    opacity: 1;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop.stm-listing-directory-list-loop .stm-listing-favorite {
+    position: absolute;
+    bottom: 7px;
+    padding: 3px 5px 3px 6px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    border-radius: 2px;
+    font-size: 16px;
+    opacity: 0;
+    z-index: 20;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop.stm-listing-directory-list-loop .stm-listing-favorite:hover {
+    background: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop.stm-listing-directory-list-loop .stm-listing-favorite.active {
+    background: linear-gradient(180deg, #32cd57 0%, #19b33e 100%);
+    opacity: 1;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop.stm-listing-directory-list-loop .image:hover .stm-listing-compare,
+      .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop.stm-listing-directory-list-loop .image:hover .stm-listing-favorite,
+      .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop.stm-listing-directory-list-loop .image:hover .stm-car-medias {
+    opacity: 1;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .image {
+    max-width: 280px;
+    padding-top: 0;
+    margin: 0 21px 0 0;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .image .stm-car-medias {
+    position: absolute;
+    right: 0;
+    top: 7px;
+    left: inherit;
+    z-index: 20;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .image .stm-car-medias .stm-listing-photos-unit, .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .image .stm-car-medias .stm-listing-videos-unit {
+    margin-right: 7px;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .image .rmv_txt_drctn .image-inner .stm-badge-directory {
+    z-index: 3;
+    position: absolute;
+    left: -65px;
+    padding: 0 55px;
+    top: 20px;
+    width: 200px;
+    height: 33px;
+    line-height: 33px;
+    transform: rotate(-45deg) !important;
+    background-color: #1bc744;
+    color: #fff !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .image .rmv_txt_drctn .image-inner img {
+    z-index: 2;
+    position: relative;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-top {
+    margin-bottom: 21px;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-top .price {
+    min-width: 100px;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-top .price > div {
+    padding: 8px 4px 8px 4px;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-top .price > div span {
+    font-size: 20px;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-top .price:before {
+    left: -5px;
+    transform: skew(-15deg, 0deg);
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-top .price.discounted-price {
+    min-height: 49px;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-top .price.discounted-price:before {
+    left: -15px;
+    transform: skew(-15deg, 0deg);
+    height: auto;
+    top: 0;
+    bottom: 0;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-top .price.discounted-price .regular-price {
+    position: relative;
+    left: -4px;
+    padding: 0 4px 0 0;
+    vertical-align: bottom;
+    font-size: 13px;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-top .price.discounted-price .sale-price {
+    position: relative;
+    left: -4px;
+    vertical-align: middle;
+    margin-top: 0;
+    padding: 0 3px 0 5px;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-top .price.discounted-price .sale-price .label-price {
+    max-width: 40px;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-top .sell-online-wrap .normal-price {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 4px 0 4px 6px;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-top .sell-online-wrap .normal-price .normal_font {
+    font-size: 10px;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 12px;
+    margin: 0;
+    padding: 0;
+    opacity: 0.7;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-top .sell-online-wrap .normal-price .heading-font {
+    line-height: 16px;
+    margin: 3px 0 0;
+    color: #ffffff;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-top .title {
+    padding-top: 0;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-top .title a {
+    font-size: 20px;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-top .title a .labels {
+    line-height: 12px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    margin-top: -1px;
+}
+
+.stm-inventory-no-filter-wrap .stm_ajax_pagination {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+    margin: 60px 0 80px;
+}
+
+.stm-inventory-no-filter-wrap .stm_ajax_pagination.loading {
+    opacity: 0.5;
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop.stm-listing-directory-list-loop.stm-isotope-listing-item .image a .image-inner .stm-badge-directory {
+    left: -65px !important;
+    right: unset !important;
+    transform: rotate(-45deg);
+}
+
+.stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop.stm-listing-directory-list-loop.stm-isotope-listing-item .image .stm-car-medias {
+    right: 7px;
+    left: unset;
+}
+
+@media (max-width: 767px) {
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content {
+        margin-top: 0;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-top {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-top .title {
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-middle .meta-middle-unit.meta-middle-divider {
+        display: none;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-middle .meta-middle-unit .meta-middle-unit-top, .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-middle .meta-middle-unit .value {
+        display: inline-block;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-bottom .single-car-actions > ul {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 750px) {
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop {
+        width: 100%;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .image {
+        -ms-flex: 1;
+        flex: 1;
+        max-width: 240px;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content {
+        -ms-flex: 1;
+        flex: 1;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-top {
+        margin-bottom: 10px;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-top .title {
+        clear: none;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-middle {
+        margin-bottom: 5px !important;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-middle .meta-middle-row {
+        margin-bottom: 0;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-bottom .single-car-actions ul {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-bottom .single-car-actions ul li .car-action-unit.add-to-compare {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 50%;
+        padding: 0 15px;
+        border-bottom: 0;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .image {
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+        -ms-flex: inherit;
+        flex: inherit;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .image img {
+        width: 100%;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content {
+        -ms-flex: 1;
+        flex: 1;
+        width: 100%;
+        margin-top: -40px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-top {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-top .title {
+        padding-top: 20px;
+        clear: both;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-middle {
+        margin-bottom: 10px !important;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-middle .meta-middle-row {
+        margin-bottom: 0;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-middle .meta-middle-row .meta-middle-unit {
+        width: 100% !important;
+        margin-bottom: 15px;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-middle .meta-middle-row .meta-middle-unit.meta-middle-divider {
+        display: none !important;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-middle .meta-middle-row .meta-middle-unit.font-exists {
+        width: auto;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-middle .meta-middle-row .meta-middle-unit.font-exists .value {
+        display: block;
+        padding-top: 0;
+        margin-left: 4px;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-bottom .single-car-actions ul {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop .content .meta-bottom .single-car-actions ul li .car-action-unit.add-to-compare {
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+    }
+
+    .stm-inventory-no-filter-wrap .stm-isotope-sorting .listing-list-loop {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 15px;
+        border-bottom: 0;
+    }
+}

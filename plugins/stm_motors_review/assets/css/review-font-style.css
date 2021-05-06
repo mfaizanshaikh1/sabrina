@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'stm-review-font';
+  src:  url('../fonts/stm-review-font.eot?csnqx7');
+  src:  url('../fonts/stm-review-font.eot?csnqx7#iefix') format('embedded-opentype'),
+    url('../fonts/stm-review-font.ttf?csnqx7') format('truetype'),
+    url('../fonts/stm-review-font.woff?csnqx7') format('woff'),
+    url('../fonts/stm-review-font.svg?csnqx7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="rev-icon-"], [class*=" rev-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'stm-review-font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.rev-icon-review_play:before {
+	content: "\e903";
+}
+.rev-icon-review_eye:before {
+	content: "\e902";
+}
+.rev-icon-star-empty:before {
+	content: "\e900";
+}
+.rev-icon-star-half:before {
+	content: "\e901";
+}
+.rev-icon-ico_mag_reviews:before {
+  content: "\1234";
+}
+.rev-icon-star:before {
+  content: "\1235";
+}
+.rev-icon-transmission:before {
+  content: "\1236";
+}
+.rev-icon-drive:before {
+  content: "\1237";
+}
+.rev-icon-engine:before {
+  content: "\1238";
+}
+.rev-icon-air_conditioning:before {
+  content: "\123a";
+}
+.rev-icon-auto_electric:before {
+  content: "\123b";
+}
+.rev-icon-brake:before {
+  content: "\123c";
+}
+.rev-icon-oil-add:before {
+  content: "\123d";
+}
+.rev-icon-Tire_Wheel:before {
+  content: "\123e";
+}
+.rev-icon-engine_2:before {
+  content: "\1243";
+}
+.rev-icon-speedometr3:before {
+  content: "\1244";
+}
+.rev-icon-oil:before {
+  content: "\1246";
+}
+.rev-icon-diagnostic:before {
+  content: "\1247";
+}
+.rev-icon-Tire_Wheel_Service2:before {
+  content: "\1248";
+}
+.rev-icon-Tire_Wheel_Service:before {
+  content: "\1249";
+}
+.rev-icon-gear:before {
+  content: "\124a";
+}
+.rev-icon-key:before {
+  content: "\124b";
+}
+.rev-icon-label-reverse:before {
+  content: "\124c";
+}
+.rev-icon-transmission_2:before {
+  content: "\124d";
+}
+.rev-icon-fuel:before {
+  content: "\124e";
+}
+.rev-icon-road:before {
+  content: "\124f";
+}
+.rev-icon-speedometr2:before {
+  content: "\1250";
+}
+.rev-icon-car:before {
+  content: "\1252";
+}
+.rev-icon-review_minus:before {
+  content: "\1254";
+}
+.rev-icon-msrp:before {
+  content: "\1255";
+}
+.rev-icon-review_plus:before {
+  content: "\1256";
+}
+.rev-icon-review_testimonial:before {
+  content: "\1257";
+}

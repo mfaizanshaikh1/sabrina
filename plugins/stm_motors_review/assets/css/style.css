@@ -1,0 +1,1831 @@
+@media (max-width: 550px) {
+    .stm_single_event_map_included .stm_single_event__info {
+        position: static !important;
+        top: 0;
+        left: 0;
+        transform: translateY(0);
+        width: 100%;
+        max-width: 100% !important;
+    }
+
+    .stm_single_event__calendar {
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    .stm_single_event__share {
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .stm_single_event__form {
+        padding: 30px 15px !important;
+    }
+
+    .stm_single_event__form .btn_loading {
+        margin: 15px 0 0 !important;
+    }
+}
+
+.single-stm_review .no_margin .stm_breadcrumbs_unit .navxtBreads, .post-type-archive-stm_review .no_margin .stm_breadcrumbs_unit .navxtBreads {
+    padding: 24px 0 15px 0;
+    margin-bottom: 25px;
+}
+
+.single-stm_review .stm_breadcrumbs_unit .navxtBreads, .post-type-archive-stm_review .stm_breadcrumbs_unit .navxtBreads {
+    padding: 19px 0 15px 0;
+    margin-bottom: 27px;
+}
+
+.single-stm_review .stm_breadcrumbs_unit .navxtBreads > span a, .post-type-archive-stm_review .stm_breadcrumbs_unit .navxtBreads > span a {
+    color: #3c98ff;
+}
+
+.single-stm_review ul.page-numbers, .post-type-archive-stm_review ul.page-numbers {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.single-stm_review ul.page-numbers.stm_review_pagination, .post-type-archive-stm_review ul.page-numbers.stm_review_pagination {
+    margin-top: 50px;
+}
+
+.single-stm_review ul.page-numbers li .prev i:before, .post-type-archive-stm_review ul.page-numbers li .prev i:before {
+    content: "\f104" !important;
+}
+
+.single-stm_review ul.page-numbers li .next i:before, .post-type-archive-stm_review ul.page-numbers li .next i:before {
+    content: "\f105" !important;
+}
+
+.single-stm_review ul.page-numbers li a, .post-type-archive-stm_review ul.page-numbers li a {
+    background-color: #3c98ff;
+}
+
+.single-stm_review ul.page-numbers li .prev, .single-stm_review ul.page-numbers li .next, .post-type-archive-stm_review ul.page-numbers li .prev, .post-type-archive-stm_review ul.page-numbers li .next {
+    position: relative;
+    top: inherit;
+    left: inherit;
+    right: inherit;
+    bottom: inherit;
+    margin: 0 8px;
+}
+
+.btn.review-btn-bg {
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    background: #3c98ff;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.2);
+    padding: 14px 24px;
+    font-weight: 700;
+}
+
+.btn.review-btn-bg:hover, .btn.review-btn-bg:active, .btn.review-btn-bg:focus {
+    color: #ffffff;
+    box-shadow: inset 0px -2px 0px 0px rgba(60, 152, 255, 0.2);
+}
+
+.btn.review-btn-outline {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    border-radius: 4px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 12px 16px;
+    margin: 0 15px;
+}
+
+.btn.review-btn-outline:hover, .btn.review-btn-outline:active, .btn.review-btn-outline:focus {
+    color: #3c98ff;
+    border-color: #3c98ff;
+}
+
+.review-load-more-btn-wrap {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding: 30px 0 30px !important;
+}
+
+.review-load-more-btn-wrap .btn_loading {
+    display: inline-block;
+    padding: 14px 24px;
+    letter-spacing: 0.4px;
+}
+
+.review-load-more-btn-wrap .btn_loading:before {
+    content: '';
+    display: block;
+    width: 39%;
+    height: 1px;
+    background: #cccccc;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.review-load-more-btn-wrap .btn_loading:after {
+    content: '';
+    display: block;
+    width: 39%;
+    height: 1px;
+    background: #cccccc;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.sidebar_right #main .container .col-md-9 {
+    position: relative;
+}
+
+.sidebar_right #main .container .col-md-9 .stm-motors-review-archive-header.review-list-archive {
+    margin-right: 30px;
+    margin-top: 35px;
+}
+
+.sidebar_right #main .container .motors-sidebar {
+    position: relative;
+}
+
+.sidebar_right #main .container .motors-sidebar:after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 100%;
+    background: #cccccc;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sidebar_right .page-numbers {
+    border-top: 0;
+}
+
+.sidebar_left #main .container .col-md-9 {
+    position: relative;
+}
+
+.sidebar_left #main .container .col-md-9 .stm-motors-review-archive-header.review-list-archive {
+    margin-left: 30px;
+}
+
+.sidebar_left #main .container .motors-sidebar {
+    position: relative;
+}
+
+.sidebar_left #main .container .motors-sidebar:before {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 100%;
+    background: #cccccc;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.sidebar_left .page-numbers {
+    border-top: 0;
+}
+
+.stm-motors-review-archive-header {
+    margin-bottom: 52px;
+}
+
+.stm-motors-review-archive-header.entry-header > .container {
+    min-height: 355px;
+}
+
+.stm-motors-review-archive-header.review-list-archive {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #cccccc;
+    position: relative;
+}
+
+.stm-motors-review-archive-header.review-list-archive:before {
+    content: '';
+    display: block;
+    background: #3c98ff;
+    width: 70px;
+    height: 3px;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    z-index: 1;
+}
+
+.stm-motors-review-archive-header.review-list-archive h1 {
+    color: #404040;
+    font-size: 28px !important;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+}
+
+.stm-motors-review-archive-header.review-list-archive .review-category-filter ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.stm-motors-review-archive-header.review-list-archive .review-category-filter ul li {
+    padding: 0;
+    margin: 0;
+}
+
+.stm-motors-review-archive-header.review-list-archive .review-category-filter ul li:first-child a {
+    padding-left: 0;
+}
+
+.stm-motors-review-archive-header.review-list-archive .review-category-filter ul li:last-child a {
+    padding-right: 0;
+}
+
+.stm-motors-review-archive-header.review-list-archive .review-category-filter ul li a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+    padding: 0 18px;
+}
+
+.stm-motors-review-archive-header.review-list-archive .review-category-filter ul li.active a {
+    color: #3c98ff;
+}
+
+.stm-motors-review-archive-header .container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.stm-motors-review-archive-header .container h1 {
+    display: block;
+    color: #ffffff;
+    font-size: 40px !important;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.stm-motors-review-archive-header .container h5 {
+    display: block;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.single-format-video .stm_breadcrumbs_unit .navxtBreads {
+    padding: 28px 0 15px 0;
+    margin-bottom: 27px;
+}
+
+.single-format-video .stm_breadcrumbs_unit .navxtBreads > span a {
+    color: #3c98ff;
+}
+
+.single-format-video #main {
+    padding-bottom: 68px;
+}
+
+.single-format-video #main .stm-single-post {
+    padding-top: 47px;
+}
+
+.single-format-video #main .stm-single-post p {
+    line-height: 32px;
+}
+
+.single-format-standard #main {
+    padding-bottom: 68px;
+}
+
+.single-format-standard #main .stm-single-post {
+    padding-top: 27px;
+}
+
+.single-format-standard #main .stm-single-post p {
+    line-height: 32px;
+}
+
+.single-format-standard .stm-motors-review-header {
+    display: block;
+    min-height: 777px;
+}
+
+.single-format-standard .stm-motors-review-header .container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    position: relative;
+    height: 777px;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+}
+
+.single-format-standard .stm-motors-review-header .container .left {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 75%;
+    padding-right: 100px;
+    padding-bottom: 38px;
+}
+
+.single-format-standard .stm-motors-review-header .container .left .review-title {
+    display: block;
+}
+
+.single-format-standard .stm-motors-review-header .container .left .review-title h2 {
+    color: #ffffff;
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 46px;
+    line-height: 36px;
+    letter-spacing: -1.8px;
+}
+
+.single-format-standard .stm-motors-review-header .container .left .review-title h2 .stm-review-blue {
+    color: #3c98ff;
+    padding-right: 10px;
+}
+
+.single-format-standard .stm-motors-review-header .container .left .car-info-wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding: 10px 5px 0;
+}
+
+.single-format-standard .stm-motors-review-header .container .left .car-info-wrap .car-info {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    overflow: hidden;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 1px solid #ffffff;
+}
+
+.single-format-standard .stm-motors-review-header .container .left .car-info-wrap .car-info:first-child {
+    padding-left: 0;
+}
+
+.single-format-standard .stm-motors-review-header .container .left .car-info-wrap .car-info:last-child {
+    padding-right: 0;
+    border-right: 0;
+}
+
+.single-format-standard .stm-motors-review-header .container .left .car-info-wrap .car-info i {
+    color: #ffffff;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.single-format-standard .stm-motors-review-header .container .left .car-info-wrap .car-info .car-info-text .title {
+    font-size: 10px;
+    color: #ffffff;
+    line-height: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.single-format-standard .stm-motors-review-header .container .left .car-info-wrap .car-info .car-info-text .desc {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.single-format-standard .stm-motors-review-header .container .right {
+    width: 25%;
+    text-align: right;
+    padding-bottom: 36px;
+}
+
+.single-format-standard .stm-motors-review-header .container .right .rating {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    margin-bottom: 16px;
+}
+
+.single-format-standard .stm-motors-review-header .container .right .rating .rating-stars {
+    display: block;
+    overflow: hidden;
+    width: 150px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.single-format-standard .stm-motors-review-header .container .right .rating .rating-stars .rating-empty {
+    position: relative;
+    width: 100%;
+}
+
+.single-format-standard .stm-motors-review-header .container .right .rating .rating-stars .rating-empty:before {
+    content: '\e900\e900\e900\e900\e900';
+    display: block;
+    width: 100%;
+    color: #18ca3e;
+    font-family: 'stm-review-font';
+    font-size: 26px;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 3px;
+}
+
+.single-format-standard .stm-motors-review-header .container .right .rating .rating-stars .rating-color {
+    display: block;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.single-format-standard .stm-motors-review-header .container .right .rating .rating-stars .rating-color:before {
+    content: '\1235\1235\1235\1235\1235';
+    display: block;
+    width: 100%;
+    color: #18ca3e;
+    font-family: 'stm-review-font';
+    font-size: 26px;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.single-format-standard .stm-motors-review-header .container .right .rating .rating-text {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: -0.2px;
+}
+
+.single-format-standard .stm-motors-review-header .container .right .rating-params {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    margin: 0 -3px 0 0;
+    padding: 0;
+}
+
+.single-format-standard .stm-motors-review-header .container .right .rating-params li {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    width: 100%;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.single-format-standard .stm-motors-review-header .container .right .rating-params li span {
+    display: block;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+.single-format-standard .stm-motors-review-header .container .right .rating-params li span:first-child {
+    text-align: right;
+    width: 46%;
+}
+
+.single-format-standard .stm-motors-review-header .container .right .rating-params li span:last-child {
+    text-align: left;
+    width: 24%;
+}
+
+.single-format-standard .stm-motors-review-header .container .right .rating-params li .rating-pb-wrap {
+    display: block;
+    width: 30%;
+    height: 6px;
+    background: #ffffff;
+    margin: 0 12px;
+    border-radius: 3px;
+}
+
+.single-format-standard .stm-motors-review-header .container .right .rating-params li .rating-pb-wrap .rating-prog-bar {
+    display: block;
+    width: 0;
+    height: 6px;
+    background: #18ca3e;
+    border-radius: 3px;
+    float: left;
+}
+
+.single-format-standard .review-top-content .r-t-c-left .r-t-c-share .addtoany_shortcode {
+    padding-right: 5px;
+}
+
+.single-format-video .stm-motors-review-header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    position: relative;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+}
+
+.single-format-video .stm-motors-review-header .left {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 73%;
+    padding-right: 100px;
+    padding-bottom: 38px;
+}
+
+.single-format-video .stm-motors-review-header .left .review-title {
+    display: block;
+}
+
+.single-format-video .stm-motors-review-header .left .review-title h2 {
+    color: #293742;
+    font-size: 32px;
+    margin: 0;
+    margin-bottom: 44px;
+    line-height: 36px;
+    letter-spacing: -1.8px;
+}
+
+.single-format-video .stm-motors-review-header .left .review-title h2 .stm-review-blue {
+    color: #3c98ff;
+    padding-right: 10px;
+}
+
+.single-format-video .stm-motors-review-header .left .car-info-wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding: 10px 3px 0;
+}
+
+.single-format-video .stm-motors-review-header .left .car-info-wrap .car-info {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    overflow: hidden;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-right: 1px solid #293742;
+}
+
+.single-format-video .stm-motors-review-header .left .car-info-wrap .car-info:first-child {
+    padding-left: 0;
+}
+
+.single-format-video .stm-motors-review-header .left .car-info-wrap .car-info:last-child {
+    padding-right: 0;
+    border-right: 0;
+}
+
+.single-format-video .stm-motors-review-header .left .car-info-wrap .car-info i {
+    color: #18ca3e;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.single-format-video .stm-motors-review-header .left .car-info-wrap .car-info i.icon-engine {
+    margin-top: -3px;
+    font-size: 20px;
+}
+
+.single-format-video .stm-motors-review-header .left .car-info-wrap .car-info i.icon-transmission {
+    font-size: 17px;
+}
+
+.single-format-video .stm-motors-review-header .left .car-info-wrap .car-info i.icon-drive {
+    font-size: 17px;
+}
+
+.single-format-video .stm-motors-review-header .left .car-info-wrap .car-info i.icon-msrp {
+    font-size: 17px;
+}
+
+.single-format-video .stm-motors-review-header .left .car-info-wrap .car-info .car-info-text .title {
+    font-size: 10px;
+    color: #293742;
+    line-height: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.single-format-video .stm-motors-review-header .left .car-info-wrap .car-info .car-info-text .desc {
+    font-size: 16px;
+    color: #293742;
+    font-weight: 600;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.single-format-video .stm-motors-review-header .right {
+    width: 27%;
+    text-align: right;
+    padding-bottom: 36px;
+}
+
+.single-format-video .stm-motors-review-header .right .rating {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    margin-bottom: 16px;
+}
+
+.single-format-video .stm-motors-review-header .right .rating .rating-stars {
+    display: block;
+    overflow: hidden;
+    width: 150px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.single-format-video .stm-motors-review-header .right .rating .rating-stars .rating-empty {
+    position: relative;
+    width: 100%;
+}
+
+.single-format-video .stm-motors-review-header .right .rating .rating-stars .rating-empty:before {
+    content: '\e900\e900\e900\e900\e900';
+    display: block;
+    width: 100%;
+    color: #18ca3e;
+    font-family: 'stm-review-font';
+    font-size: 26px;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 3px;
+}
+
+.single-format-video .stm-motors-review-header .right .rating .rating-stars .rating-color {
+    display: block;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.single-format-video .stm-motors-review-header .right .rating .rating-stars .rating-color:before {
+    content: '\1235\1235\1235\1235\1235';
+    display: block;
+    width: 100%;
+    color: #18ca3e;
+    font-family: 'stm-review-font';
+    font-size: 26px;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.single-format-video .stm-motors-review-header .right .rating .rating-text {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #293742;
+    letter-spacing: -0.2px;
+}
+
+.single-format-video .stm-motors-review-header .right .rating-params {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    margin: 0 -3px 0 0;
+    padding: 0;
+}
+
+.single-format-video .stm-motors-review-header .right .rating-params li {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    width: 100%;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.single-format-video .stm-motors-review-header .right .rating-params li span {
+    display: block;
+    color: #293742;
+    font-size: 13px;
+}
+
+.single-format-video .stm-motors-review-header .right .rating-params li span:first-child {
+    text-align: right;
+    width: 46%;
+}
+
+.single-format-video .stm-motors-review-header .right .rating-params li span:last-child {
+    text-align: left;
+    width: 24%;
+}
+
+.single-format-video .stm-motors-review-header .right .rating-params li .rating-pb-wrap {
+    display: block;
+    width: 30%;
+    height: 6px;
+    background: #c9c9c9;
+    margin: 0 12px;
+    border-radius: 3px;
+}
+
+.single-format-video .stm-motors-review-header .right .rating-params li .rating-pb-wrap .rating-prog-bar {
+    display: block;
+    width: 0;
+    height: 6px;
+    background: #18ca3e;
+    border-radius: 3px;
+    float: left;
+}
+
+.stm-template-car_magazine.single-format-video #wrapper #header .header-magazine {
+    background: #293742;
+}
+
+.stm-template-car_magazine.single-format-video #wrapper #main {
+    margin-top: 0 !important;
+}
+
+.single-format-video .review-top-content .r-t-c-left {
+    width: 10%;
+    padding-top: 7px;
+}
+
+.single-format-video .review-top-content .r-t-c-left .r-t-c-author {
+    display: none;
+}
+
+.single-format-video .review-top-content .r-t-c-left .r-t-c-review-num {
+    padding: 14px 20px 10px;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+.single-format-video .review-top-content .r-t-c-left .r-t-c-review-num .icon-review_eye {
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.single-format-video .review-top-content .r-t-c-left .r-t-c-comment-num {
+    padding: 15px 23px 9px 20px;
+    margin-top: 10px;
+    margin-right: 0;
+}
+
+.single-format-video .review-top-content .r-t-c-left .r-t-c-comment-num i {
+    font-size: 17px;
+    margin-bottom: 1px;
+}
+
+.single-format-video .review-top-content .r-t-c-left .r-t-c-share .apsc-icons-wrapper {
+    padding-right: 0;
+}
+
+.single-format-video .review-top-content .r-t-c-right {
+    width: 90%;
+}
+
+.single-format-video .review-top-content .r-t-c-right .stm-review-video {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.single-format-video .review-top-content .r-t-c-right .stm-review-video.video-played .iframeWrap {
+    opacity: 1;
+}
+
+.single-format-video .review-top-content .r-t-c-right .stm-review-video.video-played .play-btn {
+    opacity: 0;
+}
+
+.single-format-video .review-top-content .r-t-c-right .stm-review-video img {
+    display: block;
+    width: 100%;
+}
+
+.single-format-video .review-top-content .r-t-c-right .stm-review-video .iframeWrap {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    z-index: 11;
+    transition: opacity .1s ease-in;
+}
+
+.single-format-video .review-top-content .r-t-c-right .stm-review-video .iframeWrap iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.single-format-video .review-top-content .r-t-c-right .stm-review-video .play-btn {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    cursor: pointer;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity .1s ease-in;
+}
+
+.single-format-video .review-top-content .r-t-c-right .stm-review-video .play-btn i {
+    font-size: 130px;
+    color: #ffffff;
+    font-weight: 400;
+    border-radius: 50%;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.review-top-content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin: 0 -15px 30px;
+}
+
+.review-top-content > div {
+    padding: 0 15px;
+}
+
+.review-top-content .r-t-c-left {
+    display: block;
+    width: 10%;
+    padding-top: 9px;
+}
+
+.review-top-content .r-t-c-left .r-t-c-author {
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 15px;
+    margin-right: 5px;
+}
+
+.review-top-content .r-t-c-left .r-t-c-author .author-ava-wrap {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.review-top-content .r-t-c-left .r-t-c-author .author-ava-wrap img {
+    display: block;
+    overflow: hidden;
+    width: 44%;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.review-top-content .r-t-c-left .r-t-c-comment-num {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border: 1px solid #dbdbdb;
+    padding: 22px 20px 14px;
+    margin-top: 21px;
+    margin-right: 5px;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.review-top-content .r-t-c-left .r-t-c-comment-num i {
+    color: #3c98ff;
+    font-size: 17px;
+    margin-bottom: 2px;
+}
+
+.review-top-content .r-t-c-left .r-t-c-review-num {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border: 1px solid #dbdbdb;
+    padding: 22px 20px 14px;
+    margin-top: 21px;
+    margin-right: 5px;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.review-top-content .r-t-c-left .r-t-c-review-num i {
+    color: #3c98ff;
+    font-size: 17px;
+    margin-bottom: 2px;
+}
+
+.review-top-content .r-t-c-left .r-t-c-share {
+    margin-top: 22px;
+}
+
+.review-top-content .r-t-c-left .r-t-c-share .apsc-icons-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    overflow: hidden;
+    padding-right: 5px;
+}
+
+.review-top-content .r-t-c-left .r-t-c-share .apsc-icons-wrapper div {
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: inherit;
+    position: relative;
+    margin: 0 0 10px;
+}
+
+.review-top-content .r-t-c-left .r-t-c-share .apsc-icons-wrapper div a {
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.review-top-content .r-t-c-left .r-t-c-share .apsc-icons-wrapper div a .apsc-inner-block {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    box-shadow: none;
+    margin-bottom: 0;
+    padding: 5px 10px;
+}
+
+.review-top-content .r-t-c-left .r-t-c-share .apsc-icons-wrapper div a .apsc-inner-block .social-icon .fa, .review-top-content .r-t-c-left .r-t-c-share .apsc-icons-wrapper div a .apsc-inner-block .social-icon .fab {
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.review-top-content .r-t-c-left .r-t-c-share .apsc-icons-wrapper div a .apsc-inner-block .apsc-count {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 4px 0 0;
+}
+
+.review-top-content .r-t-c-left .r-t-c-share .apsc-icons-wrapper div a .apsc-inner-block .apsc-media-type {
+    display: none;
+}
+
+.review-top-content .r-t-c-left .r-t-c-share .apsc-icons-wrapper div a:before, .review-top-content .r-t-c-left .r-t-c-share .apsc-icons-wrapper div a:after {
+    display: none !important;
+}
+
+.review-top-content .r-t-c-right {
+    display: block;
+    width: 90%;
+}
+
+.review-top-content .r-t-c-right p {
+    line-height: 32px;
+    padding-top: 0;
+    margin: 0 0 20px;
+}
+
+.stm_review_excerption {
+    display: block;
+    overflow: hidden;
+    padding: 24px 94px 22px;
+    border-top: 2px solid #293742;
+    border-bottom: 2px solid #293742;
+    position: relative;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.stm_review_excerption:before {
+    content: '\1257';
+    font-family: 'stm-review-font';
+    font-size: 30px;
+    color: #18ca3e;
+    position: absolute;
+    top: 50%;
+    left: 2.2%;
+    transform: translateY(-50%);
+}
+
+.stm_pros_cons_wrapp {
+    display: block;
+    overflow: hidden;
+    padding: 44px 30px 25px 110px;
+    position: relative;
+}
+
+.stm_pros_cons_wrapp ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.stm_pros_cons_wrapp ul li {
+    margin: 0 0 16px;
+    padding: 0 0 0 13px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #293742;
+    position: relative;
+    line-height: 20px;
+    letter-spacing: -1px;
+}
+
+.stm_pros_cons_wrapp.pros:before {
+    content: '\1256';
+    font-family: 'stm-review-font';
+    font-size: 50px;
+    color: #18ca3e;
+    position: absolute;
+    top: 18%;
+    left: 6%;
+}
+
+.stm_pros_cons_wrapp.pros ul li:before {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 2px;
+    background: #293742;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.stm_pros_cons_wrapp.pros ul li:after {
+    content: '';
+    display: block;
+    width: 2px;
+    height: 8px;
+    background: #293742;
+    position: absolute;
+    top: 50%;
+    left: 3px;
+    transform: translateY(-50%);
+}
+
+.stm_pros_cons_wrapp.cons {
+    padding: 44px 30px 25px 125px;
+}
+
+.stm_pros_cons_wrapp.cons:before {
+    content: '\1254';
+    font-family: 'stm-review-font';
+    font-size: 50px;
+    color: #18ca3e;
+    position: absolute;
+    top: 20.5%;
+    left: 6%;
+}
+
+.stm_pros_cons_wrapp.cons ul li:before {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 2px;
+    background: #293742;
+    position: absolute;
+    top: 9px;
+    left: 0;
+}
+
+.review-tags-wrap {
+    display: block;
+    overflow: hidden;
+    border-top: 1px solid #cccccc;
+    margin-top: 77px;
+    padding: 30px 0 25px;
+}
+
+.review-tags-wrap ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.review-tags-wrap ul li {
+    margin-right: 12px;
+    line-height: 28px;
+}
+
+.review-tags-wrap ul li.heading-font {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.review-tags-wrap ul li.normal-font {
+    font-size: 13px;
+}
+
+.review-tags-wrap ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    background: #18ca3e;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.review-tags-wrap ul li a:hover {
+    background: #3c98ff;
+}
+
+.author-info-wrap {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 29px 30px 29px;
+    background: #293742;
+    margin-bottom: 56px;
+}
+
+.author-info-wrap .author-ava-wrap {
+    display: block;
+    width: 86px;
+    height: 86px;
+    overflow: hidden;
+    border-radius: 43px;
+    position: relative;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-top: 3px;
+    margin-right: 30px;
+}
+
+.author-info-wrap .author-ava-wrap img {
+    display: block;
+    width: 100%;
+    transform: translateZ(0);
+}
+
+.author-info-wrap .author-info {
+    display: block;
+}
+
+.author-info-wrap .author-info .author-label {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.author-info-wrap .author-info .author-name {
+    font-weight: 600;
+    font-size: 16px;
+    color: #3c98ff;
+    margin-bottom: 6px;
+}
+
+.author-info-wrap .author-info .author-desc {
+    color: #ffffff;
+    line-height: 20px;
+}
+
+.other-review-block {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 17px;
+    margin-bottom: 56px;
+}
+
+.other-review-block h3 {
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.other-review-block .other-review-list {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin: 0 -15px;
+}
+
+.other-review-block .other-review-list .other-review-item {
+    display: block;
+    overflow: hidden;
+    width: 33.3%;
+    height: 100%;
+    padding: 0 15px;
+    -ms-flex: 1;
+    flex: 1;
+    max-width: 33.3%;
+}
+
+.other-review-block .other-review-list .other-review-item .img-block {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.other-review-block .other-review-list .other-review-item .img-block img {
+    display: block;
+    width: 100%;
+}
+
+.other-review-block .other-review-list .other-review-item .img-block span {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 3px 5px;
+    background: #18ca3e;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.other-review-block .other-review-list .other-review-item .review-data {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 30px;
+    line-height: 36px;
+}
+
+.other-review-block .other-review-list .other-review-item .review-data h6 {
+    width: 80%;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+
+.other-review-block .other-review-list .other-review-item .review-data h6 a {
+    text-decoration: none;
+    color: #293742;
+}
+
+.other-review-block .other-review-list .other-review-item .review-data h6 a:hover {
+    color: #3c98ff;
+}
+
+.other-review-block .other-review-list .other-review-item .review-data .comment-num {
+    display: -ms-flexbox;
+    display: flex;
+    width: 20%;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-align: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 13px;
+    padding-right: 9px;
+}
+
+.other-review-block .other-review-list .other-review-item .review-data .comment-num i {
+    color: #3c98ff;
+    font-size: 17px;
+    margin-right: 9px;
+}
+
+.review-comment-form .comments-area .comment-respond form {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.review-comment-form .comments-area .comment-respond form > .comment-notes {
+    display: none;
+}
+
+.review-comment-form .comments-area .comment-respond form > .form-group {
+    -ms-flex-order: 2;
+    order: 2;
+    margin-bottom: 20px;
+}
+
+.review-comment-form .comments-area .comment-respond form > .form-group textarea {
+    padding: 14px;
+}
+
+.review-comment-form .comments-area .comment-respond form > .row {
+    -ms-flex-order: 1;
+    order: 1;
+    margin-bottom: 30px;
+}
+
+.review-comment-form .comments-area .comment-respond form > .row .form-group {
+    margin-bottom: 0;
+}
+
+.review-comment-form .comments-area .comment-respond form > .row .form-group input {
+    padding: 0 14px;
+}
+
+.review-comment-form .comments-area .comment-respond form > .form-submit {
+    -ms-flex-order: 3;
+    order: 3;
+}
+
+.review-comment-form .comments-area .comment-respond form > .form-submit input[type='submit'] {
+    font-size: 13px;
+    padding: 17px 23px 14px;
+}
+
+.archive-review-list .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+    -ms-flex-line-pack: distribute;
+    align-content: space-around;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item {
+    display: block;
+    height: 100%;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 38px;
+    margin-bottom: 46px;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop h5 {
+    min-height: 66px;
+    font-size: 16px;
+    margin-bottom: 19px;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop h5 a {
+    color: #293742;
+    text-decoration: none;
+    transition: all .2s ease-in;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop h5 a span {
+    color: #3c98ff;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop h5 a:hover {
+    color: #3c98ff;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .img {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .img img {
+    display: block;
+    width: 100%;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .middle_info {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-bottom: 22px;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .middle_info.middle-rating {
+    margin-bottom: 13px;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .middle_info .car_info .starting-at {
+    line-height: 19px;
+    font-size: 12px;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .middle_info .car_info .price {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .middle_info .car_info .mpg {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .middle_info .no-review {
+    width: 100px;
+    font-style: italic;
+    font-size: 13px;
+    opacity: 0.5;
+    text-align: right;
+    line-height: 17px;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .middle_info .rating {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    padding: 10px 10px 0 4px;
+    position: relative;
+    top: -9px;
+    right: -10px;
+    z-index: 1;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .middle_info .rating:hover .rating-details-popup {
+    visibility: visible;
+    opacity: 1;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .middle_info .rating .rating-stars {
+    display: block;
+    overflow: hidden;
+    width: 77px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .middle_info .rating .rating-stars .rating-empty {
+    position: relative;
+    width: 100%;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .middle_info .rating .rating-stars .rating-empty:before {
+    content: '\e900\e900\e900\e900\e900';
+    display: block;
+    width: 100%;
+    color: #18ca3e;
+    font-family: 'stm-review-font';
+    font-size: 14px;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 1px;
+    overflow: hidden;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .middle_info .rating .rating-stars .rating-color {
+    display: block;
+    width: 0;
+    height: 30px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .middle_info .rating .rating-stars .rating-color:before {
+    content: '\1235\1235\1235\1235\1235';
+    display: block;
+    width: 100%;
+    color: #18ca3e;
+    font-family: 'stm-review-font';
+    font-size: 14px;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 1px;
+    overflow: hidden;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .middle_info .rating .rating-text {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #333333;
+    letter-spacing: -0.2px;
+    position: relative;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .middle_info .rating .rating-details-popup {
+    display: block;
+    background-color: white;
+    padding: 28px 19px 14px 23px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    z-index: -1;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .1s ease-in;
+          /* Safari */
+    filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.3));
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .middle_info .rating .rating-details-popup:before {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 40px;
+    background: #ffffff;
+    position: absolute;
+    top: -40px;
+    right: 0;
+    z-index: -2;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .middle_info .rating .rating-details-popup .rating-params {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .middle_info .rating .rating-details-popup .rating-params li {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+    transition: all .2s ease-in;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .middle_info .rating .rating-details-popup .rating-params li span {
+    display: block;
+    font-size: 12px;
+    line-height: 10px;
+    color: #333333;
+    width: 60%;
+    font-weight: 500;
+    margin-right: 13px;
+    text-align: left;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .middle_info .rating .rating-details-popup .rating-params li .rating-stars {
+    margin-bottom: 0;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .middle_info .rating .rating-details-popup .rating-params li .rating-stars .rating-empty:before {
+    font-size: 10px;
+    color: #333333;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .middle_info .rating .rating-details-popup .rating-params li .rating-stars .rating-color:before {
+    font-size: 10px;
+    color: #333333;
+}
+
+.archive-review-list .row .col-md-3 .review-archive-item .review-loop .excerpt {
+    line-height: 20px;
+    font-size: 13px;
+    color: #222222;
+}
+
+@media (max-width: 1024px) {
+    .archive-review-list .row {
+        display: block !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .archive-review-list .row {
+        display: block !important;
+    }
+}
+
+@media (max-width: 340px) {
+    .stm-motors-review-archive-header.review-list-archive .review-category-filter ul {
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .stm-motors-review-archive-header.review-list-archive .review-category-filter ul li a {
+        padding: 0;
+    }
+}

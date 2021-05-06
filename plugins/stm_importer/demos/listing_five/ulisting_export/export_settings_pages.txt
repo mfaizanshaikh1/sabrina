@@ -1,0 +1,1 @@
+{"account_page":"Account","add_listing":"Add Listing","pricing_plan":"Pricing Plans","wishlist_page":"Wishlist"}

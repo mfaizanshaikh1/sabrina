@@ -1,0 +1,22 @@
+2021-05-06T17:52:05+00:00 CRITICAL Uncaught Error: Call to undefined function stm_is_boats() in C:\xampp\htdocs\faizan_wordpress\sabrina-jiang\wp-content\plugins\stm_vehicles_listing\includes\vehicle_functions.php:24
+Stack trace:
+#0 C:\xampp\htdocs\faizan_wordpress\sabrina-jiang\wp-includes\class-wp-hook.php(292): stm_ajaxurl('')
+#1 C:\xampp\htdocs\faizan_wordpress\sabrina-jiang\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\faizan_wordpress\sabrina-jiang\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\faizan_wordpress\sabrina-jiang\wp-includes\general-template.php(3009): do_action('wp_head')
+#4 C:\xampp\htdocs\faizan_wordpress\sabrina-jiang\wp-content\themes\twentytwenty\header.php(23): wp_head()
+#5 C:\xampp\htdocs\faizan_wordpress\sabrina-jiang\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\faizan_wordpress\sabrina-jiang\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\faizan_wordpr in C:\xampp\htdocs\faizan_wordpress\sabrina-jiang\wp-content\plugins\stm_vehicles_listing\includes\vehicle_functions.php on line 24
+
+2021-05-06T17:52:20+00:00 CRITICAL Uncaught Error: Call to undefined function stm_is_boats() in C:\xampp\htdocs\faizan_wordpress\sabrina-jiang\wp-content\plugins\stm_vehicles_listing\includes\vehicle_functions.php:24
+Stack trace:
+#0 C:\xampp\htdocs\faizan_wordpress\sabrina-jiang\wp-includes\class-wp-hook.php(292): stm_ajaxurl('')
+#1 C:\xampp\htdocs\faizan_wordpress\sabrina-jiang\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\faizan_wordpress\sabrina-jiang\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\faizan_wordpress\sabrina-jiang\wp-includes\general-template.php(3009): do_action('wp_head')
+#4 C:\xampp\htdocs\faizan_wordpress\sabrina-jiang\wp-content\themes\twentynineteen\header.php(19): wp_head()
+#5 C:\xampp\htdocs\faizan_wordpress\sabrina-jiang\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\faizan_wordpress\sabrina-jiang\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\faizan_word in C:\xampp\htdocs\faizan_wordpress\sabrina-jiang\wp-content\plugins\stm_vehicles_listing\includes\vehicle_functions.php on line 24
+

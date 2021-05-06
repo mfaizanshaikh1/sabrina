@@ -1,0 +1,6 @@
+May 05 2021 20:49:49
+{"type":8192,"message":"Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`","file":"C:\\xampp\\htdocs\\faizan_wordpress\\sabrina-jiang\\wp-content\\plugins\\stm_vehicles_listing\\includes\\vehicle_functions.php","line":133}
+
+May 05 2021 20:49:50
+{"type":8192,"message":"Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`","file":"C:\\xampp\\htdocs\\faizan_wordpress\\sabrina-jiang\\wp-content\\plugins\\stm_vehicles_listing\\includes\\vehicle_functions.php","line":133}
+
